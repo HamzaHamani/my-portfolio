@@ -5,6 +5,7 @@ function Info() {
   const [result, setResult] = React.useState("");
 
   const onSubmit = async (event) => {
+    setResult("loading");
     event.preventDefault();
     setResult("Sending....");
     const formData = new FormData(event.target);
@@ -19,11 +20,11 @@ function Info() {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Form Submitted Successfully");
+      setResult("done");
       event.target.reset();
     } else {
       console.log("Error", data);
-      setResult(data.message);
+      setResult("error");
     }
   };
   return (
@@ -47,23 +48,30 @@ function Info() {
             </div>
             <ul className="rest social-text d-flex mt-60">
               <li className="mr-30">
-                <a href="#0" className="hover-this">
-                  <span className="hover-anim">Facebook</span>
+                <a
+                  href="https://github.com/HamzaHamani"
+                  target="_blank"
+                  className="hover-this"
+                >
+                  <span className="hover-anim">Github</span>
                 </a>
               </li>
               <li className="mr-30">
-                <a href="#0" className="hover-this">
-                  <span className="hover-anim">Twitter</span>
+                <a
+                  href="https://api.whatsapp.com/send?phone=212693517484"
+                  target="_blank"
+                  className="hover-this"
+                >
+                  <span className="hover-anim">Whatsapp</span>
                 </a>
               </li>
               <li className="mr-30">
-                <a href="#0" className="hover-this">
+                <a
+                  href="https://www.linkedin.com/in/hamzahamani/"
+                  target="_blank"
+                  className="hover-this"
+                >
                   <span className="hover-anim">LinkedIn</span>
-                </a>
-              </li>
-              <li>
-                <a href="#0" className="hover-this">
-                  <span className="hover-anim">Instagram</span>
                 </a>
               </li>
             </ul>
@@ -110,7 +118,7 @@ function Info() {
                   </div>
                 </div>
 
-                <div className="col-12">
+                <div className="col-12 mb-12">
                   <div className="form-group">
                     <textarea
                       id="form_message"
@@ -120,7 +128,40 @@ function Info() {
                       required="required"
                     ></textarea>
                   </div>
-                  <span>{result}</span>
+                  {result == "done" ? (
+                    <span
+                      style={{
+                        fontSize: "19px",
+                        letterSpacing: "1px",
+                        fontWeight: "300",
+                        borderRadius: "100px",
+                        marginTop: "5px",
+                        color: "#1df352",
+                        fontFamily: "Poppins",
+                      }}
+                    >
+                      Form Submitted Successfully
+                    </span>
+                  ) : (
+                    ""
+                  )}{" "}
+                  {result == "error" ? (
+                    <span
+                      style={{
+                        fontSize: "19px",
+                        letterSpacing: "1px",
+                        fontWeight: "300",
+                        borderRadius: "100px",
+                        marginTop: "5px",
+                        color: "#f31a1d",
+                        fontFamily: "Poppins",
+                      }}
+                    >
+                      We couldnt recieve your message, try again
+                    </span>
+                  ) : (
+                    ""
+                  )}{" "}
                   <div className="mt-30">
                     <button type="submit">
                       <span className="text">Send A Message</span>
