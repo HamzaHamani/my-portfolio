@@ -1,13 +1,4 @@
-/*-----------------------------------------------------------------------------------
 
-    Theme Name: Gavi
-    Theme URI: http://
-    Description: Creative Personal & Portfolio
-    Author: UiCamp
-    Author URI: http://themeforest.net/user/UiCamp
-    Version: 1.0
-
------------------------------------------------------------------------------------*/
 
 $(function () {
   'use strict';
