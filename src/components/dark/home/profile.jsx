@@ -2,7 +2,7 @@ import React from "react";
 
 function Profile() {
   return (
-    <section className="intro-profile md-mb50">
+    <section className="intro-profile md-mb50 ">
       <div className="row rest">
         <div className="col-lg-4 box-img main-bg">
           <div className="cont valign">

@@ -5,9 +5,17 @@
     "title": "Bookease",
     "link": "/works/Bookease",
     "category": "Full Stack Development",
-    "website": "https://bookeease.netlify.app/",
+    "website": "https://bookeease.netlify.app",
     "github": "https://github.com/HamzaHamani/BookEase",
-    "description": "Book Ease is an admin dashboard designed for efficient management of booking data and statistical analysis through clean and intuitive charts. Built using React, React Query, Toasts, Recharts, and Styled Components, this dashboard provides a seamless experience for employees to monitor various stats and handle bookings effortlessly."
+    "description": "Book Ease is an admin dashboard designed for efficient management of booking data and statistical analysis through clean and intuitive charts. Built using React, React Query, Toasts, Recharts, and Styled Components, this dashboard provides a seamless experience for employees to monitor various stats and handle bookings effortlessly.",
+    "tech": [
+      "React",
+      "Supabase",
+      "React Query",
+      "Toasts",
+      "Recharts",
+      "Styled Components"
+    ]
   },
 
   {
@@ -16,10 +24,11 @@
     "title": "Omnifood",
     "link": "/works/Omnifood",
     "category": "Front-End Development",
-    "website": "https://omnifood-hamza.netlify.app/",
+    "website": "https://omnifood-hamza.netlify.app",
     "github": "https://github.com/HamzaHamani/omnifood",
 
-    "description": "OmniFood holds a special place in my heart as it marks the beginning of my journey into web development. Crafted using HTML, CSS, and JavaScript, OmniFood represents my first foray into creating dynamic websites. Despite its imperfections, OmniFood embodies my passion for coding and my commitment to learning and improvement. With its sleek design and interactive features, OmniFood offers users a glimpse into the world of online food delivery. Join me on this journey and experience the magic of my first website creation with OmniFood."
+    "description": "OmniFood holds a special place in my heart as it marks the beginning of my journey into web development. Crafted using HTML, CSS, and JavaScript, OmniFood represents my first foray into creating dynamic websites. Despite its imperfections, OmniFood embodies my passion for coding and my commitment to learning and improvement. With its sleek design and interactive features, OmniFood offers users a glimpse into the world of online food delivery. Join me on this journey and experience the magic of my first website creation with OmniFood.",
+    "tech": ["HTML", "CSS", "JavaScript"]
   },
   {
     "id": 3,
@@ -27,10 +36,18 @@
     "title": "PizzaPortal",
     "link": "/works/PizzaPortal",
     "category": "Full Stack Development",
-    "website": "https://pizzaportal.netlify.app/",
+    "website": "https://pizzaportal.netlify.app",
     "github": "https://github.com/HamzaHamani/PizzaPortal.",
 
-    "description": "PizzaPortal is a web application that allows users to order pizza online. The project is built using React, React Router v6.4, Tailwind CSS for styling, Local Storage for user login, Redux Toolkit for state management, and Framer Motion for small animations."
+    "description": "PizzaPortal is a web application that allows users to order pizza online. The project is built using React, React Router v6.4, Tailwind CSS for styling, Local Storage for user login, Redux Toolkit for state management, and Framer Motion for small animations.",
+    "tech": [
+      "React",
+      "React Router",
+      "Tailwind CSS",
+      "Local Storage",
+      "Redux Toolkit",
+      "Framer Motion"
+    ]
   },
 
   {
@@ -39,10 +56,11 @@
     "title": "mdluxtravel",
     "link": "/works/mdluxtravel",
     "category": "Front-End Development",
-    "website": "https://mdluxtravel.com/",
+    "website": "https://mdluxtravel.com",
     "github": "https://github.com/HamzaHamani/MDluxtravel",
 
-    "description": "Mudlux Travel is a website I developed using HTML, CSS, and JavaScript. From concept to implementation, I crafted an immersive online platform for travel enthusiasts to explore destinations, plan trips, and embark on unforgettable adventures. With a responsive design and intuitive user interface, Mudlux Travel offers a seamless browsing experience for users across all devices. Dive into the world of travel and discover new horizons with Mudlux Travel."
+    "description": "Mudlux Travel is a website I developed using HTML, CSS, and JavaScript. From concept to implementation, I crafted an immersive online platform for travel enthusiasts to explore destinations, plan trips, and embark on unforgettable adventures. With a responsive design and intuitive user interface, Mudlux Travel offers a seamless browsing experience for users across all devices. Dive into the world of travel and discover new horizons with Mudlux Travel.",
+    "tech": ["HTML", "CSS", "JavaScript"]
   },
   {
     "id": 5,
@@ -50,9 +68,10 @@
     "title": "Movi",
     "link": "/works/Movi",
     "category": "Front-End Development",
-    "website": "https://hamzahamani.github.io/MOVI/",
+    "website": "https://hamzahamani.github.io/MOVI",
     "github": "https://github.com/HamzaHamani/MOVI",
-    "description": "This project is a dynamic and interactive movie catalog website built using React, integrating the OMDB API. Users can easily search for movies using a search bar and retrieve detailed information about the movie they're interested in. Additionally, users have the ability to rate movies and mark them as already watched, providing a personalized experience for managing their movie preferences.."
+    "description": "This project is a dynamic and interactive movie catalog website built using React, integrating the OMDB API. Users can easily search for movies using a search bar and retrieve detailed information about the movie they're interested in. Additionally, users have the ability to rate movies and mark them as already watched, providing a personalized experience for managing their movie preferences..",
+    "tech": ["React", "OMDB API", "CSS", "Framer Motion"]
   },
   {
     "id": 6,
@@ -60,8 +79,9 @@
     "title": "MenuForge",
     "link": "/works/MenuForge",
     "category": "Full Stack Development",
-    "website": "https://hamzahamani.github.io/MOVI/",
+    "website": "https://hamzahamani.github.io/MOVI",
     "github": "https://github.com/HamzaHamani/MENU-FORGE",
-    "description": "work in progress"
+    "description": "work in progress",
+    "tech": ["React", "OMDB API", "CSS", "Framer Motion"]
   }
 ]

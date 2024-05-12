@@ -1,4 +1,7 @@
 @charset "UTF-8";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /*-----------------------------------------------------------------------------------
 
     Theme Name: Gavi
@@ -8,7 +11,9 @@
     Author URI: http://themeforest.net/user/UiCamp
     Version: 1.0
 
+    
 -----------------------------------------------------------------------------------*/
+
 /************ TABLE OF CONTENTS ***************
 
   01. variables
