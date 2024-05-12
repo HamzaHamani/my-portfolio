@@ -5,7 +5,7 @@ import Cursor from "@/components/Common/cusor";
 import ProgressScroll from "@/components/Common/ProgressScroll";
 import Lines from "@/components/Common/Lines";
 import Navbar from "@/components/dark/home/navbar";
-import Dark from "./dark/page";
+import Dark from "./(dark)/page";
 export const metadata = {
   title: "Hamza",
   icons: {
@@ -20,13 +20,8 @@ export const metadata = {
 export default function Home() {
   return (
     <body>
-      <LoadingScreen />
-      <Cursor />
-      <ProgressScroll />
       <Lines />
-      <div>
-        <Dark />
-      </div>
+      <Dark />
       <Script
         src="/assets/js/jquery-3.6.0.min.js"
         strategy="beforeInteractive"
