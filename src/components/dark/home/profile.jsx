@@ -42,6 +42,12 @@ function Profile() {
                 >
                   <i className="fab fa-linkedin-in"></i>
                 </a>
+                <a
+                  href="https://api.whatsapp.com/send?phone=17604579224"
+                  target="_blank"
+                >
+                  <i className="fab fa-whatsapp"></i>
+                </a>
               </div>
             </div>
           </div>
