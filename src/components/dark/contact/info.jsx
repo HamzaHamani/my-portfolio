@@ -1,6 +1,31 @@
-import React from 'react';
+"use client";
+import React from "react";
 
 function Info() {
+  const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "ea556efa-5ab6-4941-a926-1a4709392d51");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
   return (
     <div
       className="sec-box contact section-padding bord-thin-top"
@@ -46,7 +71,7 @@ function Info() {
         </div>
         <div className="col-lg-7 valign">
           <div className="full-width wow fadeIn">
-            <form id="contact-form" method="post" action="contact.php">
+            <form onSubmit={onSubmit}>
               <div className="messages"></div>
 
               <div className="controls row">
@@ -95,6 +120,7 @@ function Info() {
                       required="required"
                     ></textarea>
                   </div>
+                  <span>{result}</span>
                   <div className="mt-30">
                     <button type="submit">
                       <span className="text">Send A Message</span>

@@ -29,7 +29,7 @@ function NavTop() {
               <div className="d-flex justify-content-end">
                 <a href="mailto:abc@example.com">
                   <span className="sub-title fz-12">
-                    hamzahamani2004@gmail.com
+                    haamzahaamani@gmail.com
                   </span>
                 </a>
               </div>
