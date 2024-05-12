@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .preview .item {
   position: relative;
   background: #1d1d1d;
@@ -19,7 +23,7 @@
 }
 
 .preview .item:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;

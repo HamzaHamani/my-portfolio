@@ -7,7 +7,7 @@ import Lines from "@/components/Common/Lines";
 import Navbar from "@/components/dark/home/navbar";
 import Dark from "./dark/page";
 export const metadata = {
-  title: "Gavi",
+  title: "Hamza",
   icons: {
     icon: "/assets/imgs/favicon.ico",
     shortcut: "/assets/imgs/favicon.ico",
@@ -25,13 +25,7 @@ export default function Home() {
       <ProgressScroll />
       <Lines />
       <div>
-        <div>
-          <div>
-            <main>
-              <Dark />
-            </main>
-          </div>
-        </div>
+        <Dark />
       </div>
       <Script
         src="/assets/js/jquery-3.6.0.min.js"

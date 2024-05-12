@@ -7,46 +7,29 @@ async function ProjectView({ params }) {
     "utf8"
   );
   const data = JSON.parse(file);
-  console.log(data);
+
+  const filtered = data.filter((item) => {
+    return item.title === params.project;
+  });
+
   return (
     <section className="sec-box project section-padding radius-15">
       <div className="row justify-content-center">
         <div className="col-lg-11">
           <div className="img mb-80">
-            <img
-              src="/assets/imgs/works/project/1.png"
-              alt=""
-              className="radius-5"
-            />
+            <img src={filtered[0].photo} alt="" className="radius-5" />
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-7">
               <div className="cont md-mb50">
-                <h3 className="mb-15 fw-500">{params.project}</h3>
-                <p>
-                  We create everything digital, printable and analytical won’t
-                  seasons, appear days them stars replenish divided. All second
-                  forth. Him place was seas man and gathering creepeth called
-                  fly.
-                </p>
-                <p className="mt-15">
-                  Now there is more fashion. There is no so-called trends. Now
-                  chase after anything not necessary — nor for fashionable color
-                  nor the shape, nor for style. Think about the content that you
-                  want to invest in a created object, and only then will form.
-                  The thing is your spirit.
-                </p>
+                <h1 className="mb-15 fw-500  text-xl">{filtered[0].title}</h1>
+                <p>{filtered[0].description}</p>
+
                 <div className="mt-30">
-                  <h6 className="mb-15 line-height-28">
-                    Here choose yourself like that, without any looking back, do
-                    your personal, home, small fashion, and all will be well.
-                  </h6>
-                  <p>
-                    We create everything digital, printable and analytical won’t
-                    seasons, appear days them stars replenish divided. All
-                    second forth. Him place was seas man and gathering creepeth
-                    called fly.
-                  </p>
+                  <h3 className="mb-15 line-height-28 text">
+                    Tools & Technologies
+                  </h3>
+
                   <ul className="rest list-arrow mt-50">
                     <li>
                       <span className="icon">
@@ -137,19 +120,27 @@ async function ProjectView({ params }) {
                     <span className="sub-title">
                       <i className="fas fa-list-ul mr-10"></i> Categories :
                     </span>
-                    <p>Web Design</p>
+                    <p>{filtered[0].category}</p>
                   </li>
                   <li className="mb-30">
                     <span className="sub-title">
                       <i className="far fa-user mr-10"></i> Github :
                     </span>
-                    <p>Themeforest</p>
+                    <p>
+                      <a href={filtered[0].github} target="_blank">
+                        Project Repo
+                      </a>
+                    </p>
                   </li>
                   <li>
                     <span className="sub-title">
                       <i className="fas fa-globe mr-10"></i> Website :
                     </span>
-                    <p>UI_ThemeZ.com</p>
+                    <p>
+                      <a href={filtered[0].website} target="_blank">
+                        {filtered[0].website}
+                      </a>
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -177,24 +168,7 @@ async function ProjectView({ params }) {
       </div>
       <div className="next-prev">
         <div className="row justify-content-center">
-          <div className="col-lg-11">
-            <div className="d-flex align-items-center mt-80 pt-80 bord-thin-top">
-              <div className="prev">
-                <h6 className="sub-title">
-                  <a href="#">
-                    <i className="fas fa-long-arrow-alt-left"></i> Prev Project
-                  </a>
-                </h6>
-              </div>
-              <div className="next ml-auto">
-                <h6 className="sub-title">
-                  <a href="#">
-                    next Project <i className="fas fa-long-arrow-alt-right"></i>
-                  </a>
-                </h6>
-              </div>
-            </div>
-          </div>
+          <div className="col-lg-11"></div>
         </div>
       </div>
     </section>

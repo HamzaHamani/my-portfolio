@@ -1,15 +1,17 @@
 [
   {
+    "id": 1,
     "photo": "/assets/imgs/works/1.jpg",
-    "title": "Bookease (PC admin panel)",
-    "link": "/dark/works/bookeease",
+    "title": "Bookease",
+    "link": "/dark/works/Bookease",
     "category": "Full Stack Development",
-    "website": "https://bookeease.netlify.app/bookings",
+    "website": "https://bookeease.netlify.app/",
     "github": "https://github.com/HamzaHamani/BookEase",
     "description": "Book Ease is an admin dashboard designed for efficient management of booking data and statistical analysis through clean and intuitive charts. Built using React, React Query, Toasts, Recharts, and Styled Components, this dashboard provides a seamless experience for employees to monitor various stats and handle bookings effortlessly."
   },
 
   {
+    "id": 2,
     "photo": "/assets/imgs/works/2.jpg",
     "title": "Omnifood",
     "link": "/dark/works/Omnifood",
@@ -20,6 +22,7 @@
     "description": "OmniFood holds a special place in my heart as it marks the beginning of my journey into web development. Crafted using HTML, CSS, and JavaScript, OmniFood represents my first foray into creating dynamic websites. Despite its imperfections, OmniFood embodies my passion for coding and my commitment to learning and improvement. With its sleek design and interactive features, OmniFood offers users a glimpse into the world of online food delivery. Join me on this journey and experience the magic of my first website creation with OmniFood."
   },
   {
+    "id": 3,
     "photo": "/assets/imgs/works/3.jpg",
     "title": "PizzaPortal",
     "link": "/dark/works/PizzaPortal",
@@ -31,6 +34,7 @@
   },
 
   {
+    "id": 4,
     "photo": "/assets/imgs/works/4.jpg",
     "title": "mdluxtravel",
     "link": "/dark/works/mdluxtravel",
@@ -41,6 +45,7 @@
     "description": "Mudlux Travel is a website I developed using HTML, CSS, and JavaScript. From concept to implementation, I crafted an immersive online platform for travel enthusiasts to explore destinations, plan trips, and embark on unforgettable adventures. With a responsive design and intuitive user interface, Mudlux Travel offers a seamless browsing experience for users across all devices. Dive into the world of travel and discover new horizons with Mudlux Travel."
   },
   {
+    "id": 5,
     "photo": "/assets/imgs/works/3.jpg",
     "title": "Movi",
     "link": "/dark/works/Movi",
@@ -50,6 +55,7 @@
     "description": "This project is a dynamic and interactive movie catalog website built using React, integrating the OMDB API. Users can easily search for movies using a search bar and retrieve detailed information about the movie they're interested in. Additionally, users have the ability to rate movies and mark them as already watched, providing a personalized experience for managing their movie preferences.."
   },
   {
+    "id": 6,
     "photo": "/assets/imgs/works/3.jpg",
     "title": "MenuForge",
     "link": "/dark/works/MenuForge",
