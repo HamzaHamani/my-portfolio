@@ -14,23 +14,7 @@ function Portfolio() {
             </h3>
           </div>
           <div className="col-lg-6 valign">
-            <div className="go-more full-width d-flex justify-content-end">
-              <a href="/dark/works" className="d-flex">
-                <span>
-                  View All Works{" "}
-                  <svg
-                    className="arrow-right"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                    x="0px"
-                    y="0px"
-                    viewBox="0 0 34.2 32.3"
-                    xmlSpace="preserve"
-                    style={{ strokeWidth: 2 }}
-                  />
-                </span>
-              </a>
-            </div>
+            <div className="go-more full-width d-flex justify-content-end"></div>
           </div>
         </div>
       </div>

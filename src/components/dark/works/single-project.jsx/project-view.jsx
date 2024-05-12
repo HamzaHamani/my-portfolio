@@ -1,6 +1,13 @@
-import React from 'react';
+import React from "react";
+import { promises as fs } from "fs";
 
-function ProjectView() {
+async function ProjectView({ params }) {
+  const file = await fs.readFile(
+    process.cwd() + "/src/data/home/works.json",
+    "utf8"
+  );
+  const data = JSON.parse(file);
+  console.log(data);
   return (
     <section className="sec-box project section-padding radius-15">
       <div className="row justify-content-center">
@@ -15,7 +22,7 @@ function ProjectView() {
           <div className="row justify-content-center">
             <div className="col-lg-7">
               <div className="cont md-mb50">
-                <h3 className="mb-15 fw-500">The First layer.</h3>
+                <h3 className="mb-15 fw-500">{params.project}</h3>
                 <p>
                   We create everything digital, printable and analytical won’t
                   seasons, appear days them stars replenish divided. All second
@@ -128,19 +135,13 @@ function ProjectView() {
                 <ul>
                   <li className="mb-30">
                     <span className="sub-title">
-                      <i className="far fa-calendar-alt mr-10"></i> Date :
-                    </span>
-                    <p>6, August 2022</p>
-                  </li>
-                  <li className="mb-30">
-                    <span className="sub-title">
                       <i className="fas fa-list-ul mr-10"></i> Categories :
                     </span>
                     <p>Web Design</p>
                   </li>
                   <li className="mb-30">
                     <span className="sub-title">
-                      <i className="far fa-user mr-10"></i> Client :
+                      <i className="far fa-user mr-10"></i> Github :
                     </span>
                     <p>Themeforest</p>
                   </li>

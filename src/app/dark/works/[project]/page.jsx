@@ -8,7 +8,7 @@ import ProjectView from "@/components/dark/works/single-project.jsx/project-view
 import Script from "next/script";
 import React from "react";
 
-function SingleProject() {
+function SingleProject({ params }) {
   return (
     <div>
       <Cursor />
@@ -18,7 +18,7 @@ function SingleProject() {
       <Nav />
 
       <main class="container">
-        <ProjectView />
+        <ProjectView params={params} />
       </main>
       <Footer />
       <Script
