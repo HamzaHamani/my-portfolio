@@ -30,13 +30,16 @@ function Profile() {
               </div>
               <div className="info text-center mt-30">
                 <h5>Hamza Hamani</h5>
-                <p className="fz-13 text-u">Available For Freelance</p>
+                <p className="fz-13 text-u">Available For Work</p>
               </div>
               <div className="social text-center mt-20">
-                <a href="https://github.com/HamzaHamani">
+                <a href="https://github.com/HamzaHamani" target="_blank">
                   <i className="fab fa-github"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/hamzahamani/">
+                <a
+                  href="https://www.linkedin.com/in/hamzahamani/"
+                  target="_blank"
+                >
                   <i className="fab fa-linkedin-in"></i>
                 </a>
               </div>

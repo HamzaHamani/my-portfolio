@@ -1,22 +1,27 @@
 [
   {
     "photo": "/assets/imgs/resume/s1.png",
-    "title": "UI / UX Design",
+    "title": "React.js",
     "persent": "95%"
   },
   {
     "photo": "/assets/imgs/resume/s2.png",
-    "title": "Development",
+    "title": "Next.js",
     "persent": "90%"
   },
   {
     "photo": "/assets/imgs/resume/s3.png",
-    "title": "Graphic Design",
-    "persent": "85%"
+    "title": "Tailwind CSS",
+    "persent": "90%"
   },
   {
     "photo": "/assets/imgs/resume/s4.png",
-    "title": "WordPress",
-    "persent": "78%"
+    "title": "Javascript",
+    "persent": "93%"
+  },
+  {
+    "photo": "/assets/imgs/resume/s4.png",
+    "title": "HTML/CSS",
+    "persent": "100%"
   }
 ]

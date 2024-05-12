@@ -1,5 +1,5 @@
-import React from 'react';
-import data from '@/data/home/works.json';
+import React from "react";
+import data from "@/data/home/works.json";
 
 function Portfolio() {
   return (
@@ -7,9 +7,9 @@ function Portfolio() {
       <div className="sec-head mb-30">
         <div className="row">
           <div className="col-lg-6">
-            <h6 className="sub-title opacity-7 mb-15">Our Portfolio</h6>
+            <h6 className="sub-title opacity-7 mb-15">Portfolio</h6>
             <h3>
-              Look at my work & <br /> give us{' '}
+              Look at my work & <br /> give us{" "}
               <span className="main-color">your feedback</span>
             </h3>
           </div>
@@ -17,7 +17,7 @@ function Portfolio() {
             <div className="go-more full-width d-flex justify-content-end">
               <a href="/dark/works" className="d-flex">
                 <span>
-                  View All Works{' '}
+                  View All Works{" "}
                   <svg
                     className="arrow-right"
                     xmlns="http://www.w3.org/2000/svg"

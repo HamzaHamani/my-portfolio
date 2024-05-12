@@ -31,7 +31,7 @@ function Dark() {
           <Navbar />
           <section className="in-box">
             <Services />
-            <Skills />
+            {/* <Skills /> */}
             <Portfolio />
             <Testimonials />
             <Price />

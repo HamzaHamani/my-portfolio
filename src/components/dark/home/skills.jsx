@@ -1,6 +1,6 @@
-import React from 'react';
-import data2 from '@/data/home/skills2.json';
-import data from '@/data/home/skills.json';
+import React from "react";
+import data2 from "@/data/home/skills2.json";
+import data from "@/data/home/skills.json";
 function Skills() {
   return (
     <div
@@ -10,9 +10,9 @@ function Skills() {
       <div className="row">
         <div className="col-lg-4 valign">
           <div className="sec-head md-mb80 wow fadeIn">
-            <h6 className="sub-title opacity-7 mb-15">Our Skills</h6>
+            <h6 className="sub-title opacity-7 mb-15">Skills</h6>
             <h3>
-              <span className="main-color">Awards</span> & Recognitions
+              Talent <span className="main-color">Spotlight</span>
             </h3>
           </div>
         </div>
