@@ -1,0 +1,23 @@
+[
+  {
+    "icon": "/assets/imgs/serv-img/2.png",
+    "title": "WEB DEVELOPMENT",
+    "description": "Offering top-notch web development services tailored to your needs. Let's bring your digital vision to life."
+  },
+  {
+    "icon": "/assets/imgs/serv-img/1.png",
+    "title": "UI / UX DESIGN",
+    "description": "Crafting intuitive user interfaces and engaging experiences. Elevate your digital presence with our UI/UX design expertise.        "
+  },
+
+  {
+    "icon": "/assets/imgs/serv-img/3.png",
+    "title": "SEO /PERFORMANCE OPTIMIZATION",
+    "description": "Elevate your online visibility with our SEO optimization services. Get noticed, get ranked, and get results."
+  },
+  {
+    "icon": "/assets/imgs/serv-img/4.png",
+    "title": "TESTING AND DEBUGGING",
+    "description": "Optimize your website for better search rankings and faster loading times with our SEO and performance services."
+  }
+]
