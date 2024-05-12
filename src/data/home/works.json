@@ -1,32 +1,33 @@
 [
   {
     "photo": "/assets/imgs/works/1.jpg",
-    "title": "GeekFolio Portfolio",
+    "title": "Bookease (PC admin panel)",
     "link": "/dark/works/single-project"
   },
+
   {
     "photo": "/assets/imgs/works/2.jpg",
-    "title": "Luxury Modern Website",
+    "title": "Omnifood",
     "link": "/dark/works/single-project"
   },
   {
     "photo": "/assets/imgs/works/3.jpg",
-    "title": "Partiner BPO",
+    "title": "PizzaPortal",
     "link": "/dark/works/single-project"
   },
   {
     "photo": "/assets/imgs/works/3.jpg",
-    "title": "Partiner BPO",
+    "title": "Movi",
     "link": "/dark/works/single-project"
   },
   {
     "photo": "/assets/imgs/works/3.jpg",
-    "title": "Partiner BPO",
-    "link": "/dark/works/single-project"
+    "title": "CoffeeStreet",
+    "link": "/dark/works/coffee-street"
   },
   {
     "photo": "/assets/imgs/works/4.jpg",
-    "title": "From our gallery",
+    "title": "mdluxtravel",
     "link": "/dark/works/single-project"
   }
 ]
