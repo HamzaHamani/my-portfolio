@@ -55,7 +55,7 @@ function Profile() {
         <div className="col-lg-8 content main-bg">
           <h1 className="">
             Hello, I’m <span className="main-color">Hamza Hamani</span>, Full
-            Stack Developer and Based in Morocco.
+            Stack Developer and Based in Kenitra.
           </h1>
           <div className="stauts mt-80">
             <div className="d-flex align-items-center">
