@@ -20,7 +20,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <body>
+    <div>
       <Lines />
       <Dark />
       <Script
@@ -35,6 +35,6 @@ export default function Home() {
       <Script src="/assets/js/plugins.js" strategy="beforeInteractive" />
       <Script src="/assets/js/scripts.js" strategy="beforeInteractive" />
       <Script src="/assets/js/three.min.js" strategy="lazyOnload" />
-    </body>
+    </div>
   );
 }

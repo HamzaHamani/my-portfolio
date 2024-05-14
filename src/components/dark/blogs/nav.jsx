@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Nav() {
   return (
@@ -6,7 +6,7 @@ function Nav() {
       <div className="container">
         <div className="row">
           <div className="col-md-4 valign">
-            <a href="/dark" className="logo icon-img-60">
+            <a href="/" className="logo icon-img-60">
               <img src="/assets/imgs/logo-light.png" alt="" />
             </a>
           </div>
@@ -16,38 +16,33 @@ function Nav() {
                 <div className="col-lg-8 rest">
                   <ul className="navbar-nav main-bg d-flex justify-content-end">
                     <li className="nav-item">
-                      <a href="/dark">
+                      <a href="/">
                         <span>Home</span>
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a href="/dark">
+                      <a href="/">
                         <span>Services</span>
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a href="/dark">
+                      <a href="/">
                         <span>About</span>
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a href="/dark">
+                      <a href="/">
                         <span>Portfolio</span>
                       </a>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <a href="/dark">
                         <span>Price</span>
                       </a>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
-                      <a href="/dark">
+                      <a href="/">
                         <span>Contact</span>
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a href="/dark">
-                        <span>Blog</span>
                       </a>
                     </li>
                   </ul>

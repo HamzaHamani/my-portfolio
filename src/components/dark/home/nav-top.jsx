@@ -16,6 +16,7 @@ function NavTop() {
                 <a
                   href="https://api.whatsapp.com/send?phone=17604579224"
                   className="butn butn-md butn-bord radius-5 skew"
+                  target="_blank"
                 >
                   <span
                     style={{

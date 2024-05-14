@@ -16,12 +16,11 @@ export const metadata = {
 
 function Layout({ children }) {
   return (
-    <html>
-      <Lines />
+    <div>
       <div>
         <main>{children}</main>
       </div>
-    </html>
+    </div>
   );
 }
 

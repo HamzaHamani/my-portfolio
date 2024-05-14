@@ -70,8 +70,12 @@ function Profile() {
 
               <div>
                 <div className="butn-presv">
-                  <a href="#0" className="butn butn-md butn-bord radius-5 skew">
-                    <span>Dwonload C.V</span>
+                  <a
+                    href="#"
+                    className="butn butn-md butn-bord radius-5 skew"
+                    data-scroll-nav="5"
+                  >
+                    <span>CONTACT ME</span>
                   </a>
                 </div>
               </div>
