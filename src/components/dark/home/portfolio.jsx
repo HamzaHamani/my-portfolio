@@ -20,7 +20,7 @@ function Portfolio() {
       </div>
       <div className="gallery">
         <div className="row">
-          {data?.slice(0, 4).map((item, index) => (
+          {data?.slice(0, 6).map((item, index) => (
             <div key={index} className="col-lg-6 items">
               <div className="item mt-50 wow fadeInUp" data-wow-delay=".2s">
                 <div className="img">
@@ -30,7 +30,7 @@ function Portfolio() {
                 </div>
                 <div className="cont mt-30 d-flex align-items-center">
                   <div>
-                    <span className="tag">Branding</span>
+                    <span className="tag">{item.category}</span>
                     <h6 className="line-height-1">
                       <a href="single-project">{item.title}</a>
                     </h6>

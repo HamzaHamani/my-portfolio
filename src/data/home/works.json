@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "photo": "/assets/imgs/works/1.jpg",
+    "photo": "https://utfs.io/f/a0abd4c0-560b-44a3-9597-c632516b205b-x5t3yv.webp",
     "title": "Bookease",
     "link": "/works/Bookease",
     "category": "Full Stack Development",
@@ -20,7 +20,7 @@
 
   {
     "id": 2,
-    "photo": "/assets/imgs/works/2.jpg",
+    "photo": "https://utfs.io/f/11ce098d-4fe4-468f-b78a-6173cc552bbe-mug54n.webp",
     "title": "Omnifood",
     "link": "/works/Omnifood",
     "category": "Front-End Development",
@@ -32,7 +32,7 @@
   },
   {
     "id": 3,
-    "photo": "/assets/imgs/works/3.jpg",
+    "photo": "https://utfs.io/f/b9aa85ef-fb63-42d6-8a1f-f6efc07083c6-meuv3o.webp",
     "title": "PizzaPortal",
     "link": "/works/PizzaPortal",
     "category": "Full Stack Development",
@@ -52,7 +52,7 @@
 
   {
     "id": 4,
-    "photo": "/assets/imgs/works/4.jpg",
+    "photo": "https://utfs.io/f/73f53070-a2bf-4e54-982e-dc61d6bc9a63-veedyq.webp",
     "title": "mdluxtravel",
     "link": "/works/mdluxtravel",
     "category": "Front-End Development",
@@ -64,24 +64,13 @@
   },
   {
     "id": 5,
-    "photo": "/assets/imgs/works/3.jpg",
+    "photo": "https://utfs.io/f/c439de9a-049e-4311-a670-9c6439ae9c50-1euol.jpg",
     "title": "Movi",
     "link": "/works/Movi",
     "category": "Front-End Development",
     "website": "https://hamzahamani.github.io/MOVI",
     "github": "https://github.com/HamzaHamani/MOVI",
     "description": "This project is a dynamic and interactive movie catalog website built using React, integrating the OMDB API. Users can easily search for movies using a search bar and retrieve detailed information about the movie they're interested in. Additionally, users have the ability to rate movies and mark them as already watched, providing a personalized experience for managing their movie preferences..",
-    "tech": ["React", "OMDB API", "CSS", "Framer Motion"]
-  },
-  {
-    "id": 6,
-    "photo": "/assets/imgs/works/3.jpg",
-    "title": "MenuForge",
-    "link": "/works/MenuForge",
-    "category": "Full Stack Development",
-    "website": "https://hamzahamani.github.io/MOVI",
-    "github": "https://github.com/HamzaHamani/MENU-FORGE",
-    "description": "work in progress",
     "tech": ["React", "OMDB API", "CSS", "Framer Motion"]
   }
 ]
