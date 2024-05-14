@@ -23,7 +23,7 @@ function Dark() {
       <Cursor />
       <ContactUs />
       <LoadingScreen />
-      <ProgressScroll />
+      {/* <ProgressScroll /> */}
 
       <div>
         <NavTop />

@@ -17,7 +17,7 @@ const swiperOptions = {
 
 function Testimonials() {
   return (
-    <div className="sec-box testimonials section-padding">
+    <div className="sec-box testimonials section-padding mb-2">
       <div className="pad-left">
         <div className="sec-head mb-80 wow fadeInUp">
           <div className="row">
@@ -86,12 +86,11 @@ function Testimonials() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="item d-flex">
-                    <div>
-                      <div className="icon-img-60 mr-60">
-                        <img src="/assets/imgs/svg-assets/quote.png" alt="" />
-                      </div>
+                  <div className="item ">
+                    <div className="icon-img-60 mr-60">
+                      <img src="/assets/imgs/svg-assets/quote.png" alt="" />
                     </div>
+
                     <div>
                       <div className="cont mb-30">
                         <div className="d-flex align-items-center">
@@ -117,14 +116,61 @@ function Testimonials() {
                       <div className="d-flex align-items-center">
                         <div>
                           <div className="img">
-                            <img src="/assets/imgs/testim/1.jpg" alt="" />
+                            <img src="/assets/imgs/testim/2.jpg" alt="" />
                           </div>
                         </div>
                         <div className="ml-30">
                           <div className="info">
-                            <h6 className="main-color">Yassin Ahmed</h6>
+                            <h6 className="main-color">Vienes Jm</h6>
                             <span className="fz-13 mt-10 opacity-8">
-                              Mudlux Travel Project
+                              Mdluxtravel Project
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="item ">
+                    <div className="icon-img-60 mr-60">
+                      <img src="/assets/imgs/svg-assets/quote.png" alt="" />
+                    </div>
+
+                    <div>
+                      <div className="cont mb-30">
+                        <div className="d-flex align-items-center">
+                          <div className="rate-stars fz-12">
+                            <span className="rate main-color">
+                              <i className="fas fa-star"></i>
+                              <i className="fas fa-star"></i>
+                              <i className="fas fa-star"></i>
+                              <i className="fas fa-star"></i>
+                              <i className="fas fa-star"></i>
+                            </span>
+                            <span className="fz-12 opacity-7 ml-10"></span>
+                          </div>
+                        </div>
+                        <p className="fz-20 mt-15">
+                          The finished product exceeded my expectations! Its
+                          responsive on all devices, and Im impressed by the
+                          design and color scheme. Despite any imperfections,
+                          its evident that dedication went into crafting this
+                          website. Highly recommended for a delightful online
+                          experience!
+                        </p>
+                      </div>
+                      <div className="d-flex align-items-center">
+                        <div>
+                          <div className="img">
+                            <img src="/assets/imgs/testim/3.jpg" alt="" />
+                          </div>
+                        </div>
+                        <div className="ml-30">
+                          <div className="info">
+                            <h6 className="main-color">Omar Amrani</h6>
+                            <span className="fz-13 mt-10 opacity-8">
+                              Omnifood Project
                             </span>
                           </div>
                         </div>
