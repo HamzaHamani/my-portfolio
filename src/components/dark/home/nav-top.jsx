@@ -4,8 +4,15 @@ function NavTop() {
   return (
     <div className="nav-top pt-30 pb-30">
       <div className="container">
-        <div className="row">
-          <div className="col-md-4 valign">
+        <div
+          className=""
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+          }}
+        >
+          <div className="">
             <div>
               <div
                 className=""
@@ -32,31 +39,15 @@ function NavTop() {
               </div>
             </div>
           </div>
-
-          <div className="col-md-4 valign">
-            <div className="full-width info">
-              <div className="d-flex justify-content-end">
-                <a href="mailto:haamzahaamani@gmail.com">
-                  <span className="sub-title fz-12"></span>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 valign">
-            <div className="full-width info">
-              <div className="d-flex justify-content-end">
-                <a href="mailto:haamzahaamani@gmail.com">
-                  <span className="sub-title fz-12">
-                    haamzahaamani@gmail.com
-                  </span>
-                </a>
-              </div>
-            </div>
+          <div className=" ">
+            <a href="mailto:haamzahaamani@gmail.com">
+              <span className="sub-title fz-12">haamzahaamani@gmail.com</span>
+            </a>
           </div>
         </div>
-        <div className="nav-butn">
+        {/* <div className="nav-butn">
           <span className="pe-7s-menu"></span>
-        </div>
+        </div> */}
       </div>
     </div>
   );

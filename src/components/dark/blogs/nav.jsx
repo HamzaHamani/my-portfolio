@@ -5,12 +5,15 @@ function Nav() {
     <div className="nav-top pt-30 pb-30">
       <div className="container">
         <div className="row">
-          <div className="col-md-4 valign">
+          <div
+            className=""
+            style={{ display: "flex", justifyContent: "center" }}
+          >
             <a href="/" className="logo icon-img-60">
               <img src="/assets/imgs/logo-light.png" alt="" />
             </a>
           </div>
-          <div className="col-md-8">
+          {/* <div className="col-md-8">
             <div className="navbar">
               <div className="row justify-content-end rest">
                 <div className="col-lg-8 rest">
@@ -35,11 +38,7 @@ function Nav() {
                         <span>Portfolio</span>
                       </a>
                     </li>
-                    {/* <li className="nav-item">
-                      <a href="/dark">
-                        <span>Price</span>
-                      </a>
-                    </li> */}
+                   
                     <li className="nav-item">
                       <a href="/">
                         <span>Contact</span>
@@ -49,11 +48,11 @@ function Nav() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
-        <div className="nav-butn">
+        {/* <div className="nav-butn">
           <span className="pe-7s-menu"></span>
-        </div>
+        </div> */}
       </div>
     </div>
   );
