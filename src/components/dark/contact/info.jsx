@@ -41,15 +41,7 @@ function Info() {
               If you would like to work with me or just want to get in touch,
               we’d love to hear from you!
             </p>
-            <div className="phone fz-30 fw-600 mt-30 underline">
-              <a
-                target="_blank"
-                href="https://api.whatsapp.com/send?phone=17604579224"
-                className="main-color"
-              >
-                +212 693 517 484
-              </a>
-            </div>
+
             <ul className="rest social-text d-flex mt-60">
               <li className="mr-30">
                 <a
