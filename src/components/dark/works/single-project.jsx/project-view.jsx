@@ -15,7 +15,6 @@ async function ProjectView({ params }) {
   const filtered = data.filter((item) => {
     return item.title === params.project;
   });
-  console.log(filtered[0].tech);
   return (
     <section className="sec-box project section-padding radius-15">
       <div className="row justify-content-center">
@@ -29,6 +28,7 @@ async function ProjectView({ params }) {
                 <h1
                   className="mb-15 fw-500  text-xl"
                   style={{
+                    textTransform: "capitalize",
                     fontWeight: "bold",
                     letterSpacing: "1px",
                   }}
@@ -86,23 +86,23 @@ async function ProjectView({ params }) {
                 <ul>
                   <li className="mb-30">
                     <span className="sub-title">
-                      <i className="fas fa-list-ul mr-10"></i> Categories :
+                      <i className="fas fa-list-ul mr-5"></i> Categories :
                     </span>
                     <p>{filtered[0].category}</p>
                   </li>
                   <li className="mb-30">
                     <span className="sub-title">
-                      <i className="far fa-user mr-10"></i> Github :
+                      <i class="fas fa-file-code mr-10"></i>Source Code :
                     </span>
                     <p>
                       <a href={filtered[0].github} target="_blank">
-                        Project Repo
+                        Github
                       </a>
                     </p>
                   </li>
                   <li>
                     <span className="sub-title">
-                      <i className="fas fa-globe mr-10"></i> Website :
+                      <i className="fas fa-globe "></i> Website :
                     </span>
                     <p>
                       <a href={filtered[0].website} target="_blank">
@@ -116,7 +116,7 @@ async function ProjectView({ params }) {
           </div>
         </div>
       </div>
-      <div className="imgs mt-80">
+      {/* <div className="imgs mt-80">
         <div className="row justify-content-center">
           <div className="col-lg-11">
             <div className="row md-marg">
@@ -133,12 +133,12 @@ async function ProjectView({ params }) {
             </div>
           </div>
         </div>
-      </div>
-      <div className="next-prev">
+      </div> */}
+      {/* <div className="next-prev">
         <div className="row justify-content-center">
           <div className="col-lg-11"></div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

@@ -11,11 +11,11 @@ function Navbar() {
                 <span>Services</span>
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a href="#0" data-scroll-nav="2">
                 <span>About</span>
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a href="#0" data-scroll-nav="3">
                 <span>Portfolio</span>

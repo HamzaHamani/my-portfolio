@@ -1,7 +1,7 @@
-'use client';
-import React, { useEffect } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from 'swiper';
+"use client";
+import React, { useEffect } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper";
 
 const swiperOptions = {
   modules: [Navigation],
@@ -10,8 +10,8 @@ const swiperOptions = {
   speed: 1000,
 
   navigation: {
-    nextEl: '.testimonials .swiper-button-next',
-    prevEl: '.testimonials .swiper-button-prev',
+    nextEl: ".testimonials .swiper-button-next",
+    prevEl: ".testimonials .swiper-button-prev",
   },
 };
 
@@ -24,7 +24,7 @@ function Testimonials() {
             <div className="col-lg-7">
               <h6 className="sub-title opacity-7 mb-15">Testimonials</h6>
               <h3>
-                Trusted by <span className="main-color">Hundered Clients</span>
+                Trusted by <span className="main-color">Multiple Clients</span>
               </h3>
             </div>
           </div>
@@ -55,17 +55,16 @@ function Testimonials() {
                               <i className="fas fa-star"></i>
                               <i className="fas fa-star"></i>
                             </span>
-                            <span className="fz-12 opacity-7 ml-10">
-                              (71 Reviews)
-                            </span>
+                            <span className="fz-12 opacity-7 ml-10"></span>
                           </div>
                         </div>
                         <p className="fz-20 mt-15">
-                          We have purchased well into the thousands of items,
-                          but this is without doubt one of the best we’ve have
-                          been lucky enough to work on, the attention to detail
-                          apparent throughout, and the delivery is impressively
-                          intuitive.
+                          Book Ease surpassed my expectations! Its a
+                          game-changer for booking management, with its sleek
+                          design, intuitive interface, and smooth backend.
+                          Whether monitoring stats or handling bookings, Book
+                          Ease is the ultimate tool for stress-free management.
+                          Trust me, its a winner!
                         </p>
                       </div>
                       <div className="d-flex align-items-center">
@@ -76,9 +75,9 @@ function Testimonials() {
                         </div>
                         <div className="ml-30">
                           <div className="info">
-                            <h6 className="main-color">Leonard Heiser</h6>
+                            <h6 className="main-color">Ahmed Jm</h6>
                             <span className="fz-13 mt-10 opacity-8">
-                              Envato customer
+                              Bookease Project
                             </span>
                           </div>
                         </div>
@@ -104,17 +103,15 @@ function Testimonials() {
                               <i className="fas fa-star"></i>
                               <i className="fas fa-star"></i>
                             </span>
-                            <span className="fz-12 opacity-7 ml-10">
-                              (71 Reviews)
-                            </span>
+                            <span className="fz-12 opacity-7 ml-10"></span>
                           </div>
                         </div>
                         <p className="fz-20 mt-15">
-                          We have purchased well into the thousands of items,
-                          but this is without doubt one of the best we’ve have
-                          been lucky enough to work on, the attention to detail
-                          apparent throughout, and the delivery is impressively
-                          intuitive.
+                          Mudlux Travel exceeded my expectations! Its a gem for
+                          travel enthusiasts, offering a sleek design and
+                          intuitive interface. Whether dreaming or planning,
+                          Mudlux Travel is the ultimate companion for
+                          unforgettable adventures.
                         </p>
                       </div>
                       <div className="d-flex align-items-center">
@@ -125,9 +122,9 @@ function Testimonials() {
                         </div>
                         <div className="ml-30">
                           <div className="info">
-                            <h6 className="main-color">Leonard Heiser</h6>
+                            <h6 className="main-color">Yassin Ahmed</h6>
                             <span className="fz-13 mt-10 opacity-8">
-                              Envato customer
+                              Mudlux Travel Project
                             </span>
                           </div>
                         </div>

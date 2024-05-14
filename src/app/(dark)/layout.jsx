@@ -17,12 +17,10 @@ export const metadata = {
 function Layout({ children }) {
   return (
     <html>
-      <body className="sub-bg">
-        <Lines />
-        <div>
-          <main>{children}</main>
-        </div>
-      </body>
+      <Lines />
+      <div>
+        <main>{children}</main>
+      </div>
     </html>
   );
 }
