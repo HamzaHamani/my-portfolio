@@ -4612,6 +4612,12 @@ img.left {
     padding: 10px 25px;
   }
 }
+@media screen and (max-width: 476px) {
+  .flexnavtop {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
 @media screen and (max-width: 375px) {
   .flexnavtop {
     flex-direction: column;
