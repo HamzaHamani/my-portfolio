@@ -15,7 +15,8 @@
       "Toasts",
       "Recharts",
       "Styled Components"
-    ]
+    ],
+    "disclaimer": true
   },
 
   {
@@ -67,7 +68,7 @@
     "photo": "https://utfs.io/f/c439de9a-049e-4311-a670-9c6439ae9c50-1euol.jpg",
     "title": "Movi",
     "link": "/works/Movi",
-    "category": "Front-End Development - Api Integration",
+    "category": "Front-End Development - Api Integration`",
     "website": "https://hamzahamani.github.io/MOVI",
     "github": "https://github.com/HamzaHamani/MOVI",
     "description": "This project is a dynamic and interactive movie catalog website built using React, integrating the OMDB API. Users can easily search for movies using a search bar and retrieve detailed information about the movie they're interested in. Additionally, users have the ability to rate movies and mark them as already watched, providing a personalized experience for managing their movie preferences..",

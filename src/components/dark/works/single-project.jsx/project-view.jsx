@@ -35,6 +35,20 @@ async function ProjectView({ params }) {
                 >
                   {filtered[0].title}
                 </h1>
+                {filtered[0].disclaimer ? (
+                  <h3
+                    style={{
+                      color: "#d43f3f",
+                      fontSize: "20px",
+                      marginTop: "-5px",
+                      marginBottom: "10px",
+                    }}
+                  >
+                    PC only admin dashboard
+                  </h3>
+                ) : (
+                  ""
+                )}
                 <p style={{ color: "#c7c5c5" }}>{filtered[0].description}</p>
 
                 <div className="mt-30">
