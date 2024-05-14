@@ -4594,3 +4594,40 @@ img.left {
 }
 
 /* ====================== [ End Responsive ] ====================== */
+.flexnavtop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.consbtn {
+  font-size: 15px;
+  padding: 15px 35px;
+}
+
+@media screen and (max-width: 500px) {
+  .consultation {
+    font-size: 13px;
+  }
+  .consbtn {
+    padding: 10px 25px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .flexnavtop {
+    flex-direction: column;
+    gap: 10px;
+  }
+  #item1 {
+    order: 2;
+  }
+  #item2 a {
+    font-size: 13px;
+    order: 1;
+  }
+  .consultation {
+    font-size: 10px;
+  }
+  .consbtn {
+    padding: 5px 15px;
+  }
+}

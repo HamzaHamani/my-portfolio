@@ -1,20 +1,14 @@
 import React from "react";
+import "../../../../public/assets/css/style.css";
 
 function NavTop() {
   return (
     <div className="nav-top pt-30 pb-30">
       <div className="container">
-        <div
-          className=""
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-          }}
-        >
-          <div className="">
-            <div>
-              <div
+        <div className="flexnavtop">
+          <div className="leftnav">
+            <div id="item1">
+              <button
                 className=""
                 style={{
                   backgroundColor: "#FFFFFF",
@@ -22,10 +16,11 @@ function NavTop() {
               >
                 <a
                   href="https://api.whatsapp.com/send?phone=17604579224"
-                  className="butn butn-md butn-bord radius-5 skew"
+                  className="consbtn"
                   target="_blank"
                 >
                   <span
+                    className="consultation"
                     style={{
                       textTransform: "uppercase",
                       fontWeight: "600",
@@ -36,10 +31,10 @@ function NavTop() {
                     free consultation
                   </span>
                 </a>
-              </div>
+              </button>
             </div>
           </div>
-          <div className=" ">
+          <div id="item2" className="rightnav">
             <a href="mailto:haamzahaamani@gmail.com">
               <span className="sub-title fz-12">haamzahaamani@gmail.com</span>
             </a>
