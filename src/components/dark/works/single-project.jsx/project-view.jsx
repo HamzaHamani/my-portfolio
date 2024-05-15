@@ -130,29 +130,29 @@ async function ProjectView({ params }) {
           </div>
         </div>
       </div>
-      {/* <div className="imgs mt-80">
+      <div className="imgs mt-80">
         <div className="row justify-content-center">
           <div className="col-lg-11">
             <div className="row md-marg">
               <div className="col-md-6">
                 <div className="img sm-mb30">
-                  <img src="/assets/imgs/works/project/2.png" alt="" />
+                  <img src={filtered[0].secondPhoto} alt="" />
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="img">
-                  <img src="/assets/imgs/works/project/3.png" alt="" />
+                  <img src={filtered[0].thirdPhoto} alt="" />
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div> */}
-      {/* <div className="next-prev">
+      </div>
+      <div className="next-prev">
         <div className="row justify-content-center">
           <div className="col-lg-11"></div>
         </div>
-      </div> */}
+      </div>
     </section>
   );
 }
