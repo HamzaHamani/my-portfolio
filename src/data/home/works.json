@@ -1,7 +1,9 @@
 [
   {
     "id": 1,
-    "photo": "https://utfs.io/f/a0abd4c0-560b-44a3-9597-c632516b205b-x5t3yv.webp",
+    "photo": "https://utfs.io/f/c7eeb868-3701-446b-9a38-983668078f91-f5ovxs.png",
+    "secondPhoto": "https://utfs.io/f/ba2fdd15-ba34-42d2-b472-5dc168991014-xkhnei.png",
+    "thirdPhoto": "https://utfs.io/f/1dba48c3-beb3-4511-a7db-fcf203968a26-xkhnej.png",
     "title": "Bookease",
     "link": "/works/Bookease",
     "category": "Full Stack Development",
@@ -21,7 +23,9 @@
 
   {
     "id": 2,
-    "photo": "https://utfs.io/f/11ce098d-4fe4-468f-b78a-6173cc552bbe-mug54n.webp",
+    "photo": "https://utfs.io/f/1495f92d-adc0-4108-b301-952f81d74b20-mug54n.png",
+    "secondPhoto": "https://utfs.io/f/8880bb63-8b28-48b4-8c1a-3a9dbe4599c7-2384py.png",
+    "thirdPhoto": "https://utfs.io/f/7ea611ef-059c-42f5-9fae-0323a22b61f7-2384px.png",
     "title": "Omnifood",
     "link": "/works/Omnifood",
     "category": "Front-End Development",
@@ -33,7 +37,9 @@
   },
   {
     "id": 3,
-    "photo": "https://utfs.io/f/b9aa85ef-fb63-42d6-8a1f-f6efc07083c6-meuv3o.webp",
+    "photo": "https://utfs.io/f/b5392e71-38c7-4da6-a724-e1dc5a6e9245-meuv3o.png",
+    "secondPhoto": "https://utfs.io/f/cd0df4a1-ef2a-41e0-969d-9b20657146e6-fijrk3.png",
+    "thirdPhoto": "https://utfs.io/f/10569b8a-a7c5-4c02-9fec-fa7ceb17ea5c-fijrk2.png",
     "title": "PizzaPortal",
     "link": "/works/PizzaPortal",
     "category": "Full Stack Development",
@@ -53,7 +59,9 @@
 
   {
     "id": 4,
-    "photo": "https://utfs.io/f/73f53070-a2bf-4e54-982e-dc61d6bc9a63-veedyq.webp",
+    "photo": "https://utfs.io/f/18f4c948-98f9-48cb-982d-4b3b0ac61a9d-veedyq.png",
+    "secondPhoto": "https://utfs.io/f/bdf3afa8-c18b-46a8-a415-060a55207262-l16qpt.png",
+    "thirdPhoto": "https://utfs.io/f/fbcdb475-5607-45c4-9acc-d84e16f8e487-l16qps.png",
     "title": "mdluxtravel",
     "link": "/works/mdluxtravel",
     "category": "Front-End Development",
@@ -65,7 +73,9 @@
   },
   {
     "id": 5,
-    "photo": "https://utfs.io/f/c439de9a-049e-4311-a670-9c6439ae9c50-1euol.jpg",
+    "photo": "https://utfs.io/f/f683d769-3a47-4e4f-8ddd-c8db55a83a60-1zys5.png",
+    "secondPhoto": "https://utfs.io/f/984ac3b4-deff-4e13-988b-a7bb2bdec3b2-1pyy9o.png",
+    "thirdPhoto": "https://utfs.io/f/2d0f4cc2-f347-4f34-84ab-ec9c3c34384e-1pyy9p.png",
     "title": "Movi",
     "link": "/works/Movi",
     "category": "Front-End Development - Api Integration`",
@@ -76,7 +86,9 @@
   },
   {
     "id": 6,
-    "photo": "https://utfs.io/f/4451c64a-bdf6-4dd9-8c8d-15e7d40edee4-qdjxtw.webp",
+    "photo": "https://utfs.io/f/1c92e0d8-da12-4cf9-a104-a081d0758292-jcp9ac.png",
+    "secondPhoto": "https://utfs.io/f/c7901a38-3fe4-478c-989f-5b7b6ed56430-jcp9aa.png",
+    "thirdPhoto": "https://utfs.io/f/d308e632-4079-43ba-a871-188b3e91a559-jcp9ab.png",
     "title": "CoffeeStreet",
     "link": "/works/CoffeeStreet",
     "category": "Front-End Development",
