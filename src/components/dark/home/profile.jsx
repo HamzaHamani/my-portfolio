@@ -8,7 +8,7 @@ function Profile() {
           <div className="cont valign">
             <div className="full-width">
               <div className="img">
-                <img src="/assets/imgs/header/profile.jpeg" alt="my picture" />
+                <img src="/assets/imgs/header/profile.webp" alt="my picture" />
                 <span className="icon">
                   <img
                     src="/assets/imgs/header/icon1.svg"
