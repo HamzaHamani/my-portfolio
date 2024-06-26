@@ -8,6 +8,27 @@ export const metadata = {
     template: "Hamza | %s",
   },
   description: "I’m Hamza Hamani, Full Stack Developer and Based in Kenitra",
+  openGraph: {
+    title: "Hamza Hamani",
+    description: "I’m Hamza Hamani, Full Stack Developer and Based in Kenitra",
+    url: "https://hamzahamani.tech",
+    images: [
+      {
+        url: "http://hamzahamani.tech/api/og?title=hamzahamani.tech", // Dynamic og route
+        width: 800,
+        height: 600,
+      },
+      {
+        url: "http://hamzahamani.techapi/og?title=hamzahamani.tech", // Dynamic og route
+        width: 1800,
+        height: 1600,
+        alt: "My custom alt",
+      },
+    ],
+    siteName: "hamzahamani.tech",
+    locale: "en_US",
+    type: "website",
+  },
   icons: {
     icon: "/assets/imgs/favicon.ico",
     shortcut: "/assets/imgs/favicon.ico",
