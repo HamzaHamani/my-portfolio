@@ -1,57 +1,54 @@
-// Import required modules and constants
 import { ImageResponse } from "next/og";
 
 // Route segment config
 export const runtime = "edge";
 
-// Define a function to handle GET requests
-export async function GET(req) {
-  // Extract title from query parameters
-  const { searchParams } = req.nextUrl;
-  const postTitle = searchParams.get("title");
+// Image metadata
+export const alt = "About Hamza Hamani";
+export const size = {
+  width: 1200,
+  height: 630,
+};
 
-  // Fetch the Outfit font from the specified URL
-  //   const font = fetch(
-  //     new URL("../../../../public/assets/fonts/fa-regular-400", import.meta.url)
-  //   ).then((res) => res.arrayBuffer());
-  //   const fontData = await font;
+export const contentType = "image/png";
 
-  // Create an ImageResponse with dynamic content
+// Image generation
+export default async function Image() {
+  // Font
+  const interSemiBold = fetch(
+    new URL("/assets/fonts/fa-regular-400.ttf", import.meta.url)
+  ).then((res) => res.arrayBuffer());
+
   return new ImageResponse(
     (
+      // ImageResponse JSX element
       <div
         style={{
-          height: "100%",
+          fontSize: 128,
+          background: "white",
           width: "100%",
+          height: "100%",
           display: "flex",
-          flexDirection: "column",
-          alignItems: "flex-start",
+          alignItems: "center",
           justifyContent: "center",
-          backgroundImage: `url(http://localhost:3000/og-bg.png)`,
         }}
       >
-        <div
-          style={{
-            marginLeft: 190,
-            marginRight: 190,
-            display: "flex",
-            fontSize: 140,
-            fontFamily: "Outfit",
-            letterSpacing: "-0.05em",
-            fontStyle: "normal",
-            color: "white",
-            lineHeight: "120px",
-            whiteSpace: "pre-wrap",
-          }}
-        >
-          {postTitle}
-        </div>
+        About Hamza Hamani
       </div>
     ),
     // ImageResponse options
     {
-      width: 1920,
-      height: 1080,
+      // For convenience, we can re-use the exported opengraph-image
+      // size config to also set the ImageResponse's width and height.
+      ...size,
+      fonts: [
+        {
+          name: "Inter",
+          data: await interSemiBold,
+          style: "normal",
+          weight: 400,
+        },
+      ],
     }
   );
 }
