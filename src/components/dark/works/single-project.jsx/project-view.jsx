@@ -1,5 +1,10 @@
 import React from "react";
 import { promises as fs } from "fs";
+import { title } from "process";
+
+export const metadata = {
+  title: "Portfoilio",
+};
 
 async function ProjectView({ params }) {
   function removeProtocol(url) {
@@ -20,7 +25,11 @@ async function ProjectView({ params }) {
       <div className="row justify-content-center">
         <div className="col-lg-11">
           <div className="img mb-80">
-            <img src={filtered[0].photo} alt="" className="radius-5" />
+            <img
+              src={filtered[0].photo}
+              alt="Porject Img Preview"
+              className="radius-5"
+            />
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-7">
@@ -76,7 +85,7 @@ async function ProjectView({ params }) {
                             >
                               <path
                                 fill-rule="evenodd"
-                                clip-rule="evenodd"
+                                clipRule="evenodd"
                                 d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
                                 fill="#fff"
                               ></path>
@@ -136,12 +145,18 @@ async function ProjectView({ params }) {
             <div className="row md-marg">
               <div className="col-md-6">
                 <div className="img sm-mb30">
-                  <img src={filtered[0].secondPhoto} alt="" />
+                  <img
+                    src={filtered[0].secondPhoto}
+                    alt="Second Image Project Preview"
+                  />
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="img">
-                  <img src={filtered[0].thirdPhoto} alt="" />
+                  <img
+                    src={filtered[0].thirdPhoto}
+                    alt="Third Image Project Preview"
+                  />
                 </div>
               </div>
             </div>

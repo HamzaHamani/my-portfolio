@@ -1,5 +1,5 @@
-import React from 'react';
-import data from '@/data/home/works.json';
+import React from "react";
+import data from "@/data/home/works.json";
 function Portfolio() {
   return (
     <div className="sec-box portfolio main-bg section-padding radius-15">
@@ -16,7 +16,7 @@ function Portfolio() {
               <div className="item mt-50">
                 <div className="img">
                   <a href={item.link}>
-                    <img src={item.photo} alt="" />
+                    <img src={item.photo} alt="My Profiel Picture" />
                   </a>
                 </div>
                 <div className="cont mt-30 d-flex align-items-center">

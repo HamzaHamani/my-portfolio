@@ -3,7 +3,11 @@ import Lines from "@/components/Common/Lines";
 import React from "react";
 
 export const metadata = {
-  title: "Hamza",
+  title: {
+    default: "Hamza | Full Stack Developer",
+    template: "Hamza | %s",
+  },
+  description: "I’m Hamza Hamani, Full Stack Developer and Based in Kenitra",
   icons: {
     icon: "/assets/imgs/favicon.ico",
     shortcut: "/assets/imgs/favicon.ico",

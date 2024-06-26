@@ -10,7 +10,7 @@ function Nav() {
             style={{ display: "flex", justifyContent: "center" }}
           >
             <a href="/" className="logo icon-img-60">
-              <img src="/assets/imgs/logo-light.png" alt="" />
+              <img src="/assets/imgs/logo-light.png" alt="Portfolio Logo" />
             </a>
           </div>
           {/* <div className="col-md-8">

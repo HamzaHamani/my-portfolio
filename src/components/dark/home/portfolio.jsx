@@ -25,7 +25,7 @@ function Portfolio() {
               <div className="item mt-50 wow fadeInUp" data-wow-delay=".2s">
                 <div className="img">
                   <a href={item.link}>
-                    <img src={item.photo} alt="" />
+                    <img src={item.photo} alt="Project Image Preview" />
                   </a>
                 </div>
                 <div className="cont mt-30 d-flex align-items-center">
