@@ -25,7 +25,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://hamzahamani.tech/" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

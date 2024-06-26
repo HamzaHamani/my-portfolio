@@ -16,6 +16,9 @@ export async function generateMetadata({ params, searchParams }) {
     return item.title === params.project;
   });
   return {
+    alternates: {
+      canonical: `https://hamzahamani.tech/movie/${filtered[0].title}`,
+    },
     title: filtered[0].title,
     description: filtered[0].description,
     images: [{ url: filtered[0].photo }],
