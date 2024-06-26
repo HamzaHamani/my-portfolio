@@ -41,11 +41,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta property="og:image" content="<generated>" />
-        <meta property="og:image:alt" content="About Hamza Hamani" />
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
         <link rel="canonical" href="https://hamzahamani.tech/" />
         <script
           type="application/ld+json"
