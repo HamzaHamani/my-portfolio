@@ -15,9 +15,6 @@ export const contentType = "image/png";
 // Image generation
 export default async function Image() {
   // Font
-  const interSemiBold = fetch(
-    new URL("/assets/fonts/fa-regular-400.ttf", import.meta.url)
-  ).then((res) => res.arrayBuffer());
 
   return new ImageResponse(
     (
@@ -30,6 +27,7 @@ export default async function Image() {
           height: "100%",
           display: "flex",
           alignItems: "center",
+          fontFamily: "monospace",
           justifyContent: "center",
         }}
       >
@@ -43,8 +41,6 @@ export default async function Image() {
       ...size,
       fonts: [
         {
-          name: "Inter",
-          data: await interSemiBold,
           style: "normal",
           weight: 400,
         },
