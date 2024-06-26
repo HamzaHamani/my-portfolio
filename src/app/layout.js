@@ -12,6 +12,16 @@ export const metadata = {
   alternates: {
     canonical: "https://hamzahamani.tech",
   },
+  openGraph: {
+    title: "Hamza Hamani",
+    description:
+      "Hamza Hamani, specializes in Next.js, Tailwind CSS, Drizzle, with 3 years of coding experience.",
+    url: "https://hamzahamani.tech",
+
+    siteName: "hamzahamani.tech",
+    locale: "en_US",
+    type: "idk",
+  },
   icons: {
     icon: "/assets/imgs/favicon.ico",
     shortcut: "/assets/imgs/favicon.ico",
