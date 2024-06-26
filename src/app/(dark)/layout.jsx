@@ -18,15 +18,9 @@ export const metadata = {
 
     images: [
       {
-        url: "http://hamzahamani.tech/api/og?title=hamzahamani.tech", // Dynamic og route
-        width: 800,
-        height: 600,
-      },
-      {
-        url: "http://hamzahamani.techapi/og?title=hamzahamani.tech", // Dynamic og route
-        width: 1800,
-        height: 1600,
-        alt: "My custom alt",
+        url: "http://hamzahamani.tech/api/og", // Dynamic og route
+        width: 1200,
+        height: 630,
       },
     ],
     siteName: "hamzahamani.tech",
@@ -42,7 +36,6 @@ export const metadata = {
     ]),
   },
 };
-
 function Layout({ children }) {
   return (
     <div>
