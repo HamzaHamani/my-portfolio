@@ -8,6 +8,7 @@ import ContactUs from "@/components/dark/contact/ContactUs";
 import ProjectView from "@/components/dark/works/single-project.jsx/project-view";
 import Script from "next/script";
 import React from "react";
+import ErrorBoundary from "@/components/errorBoundary";
 export async function generateMetadata({ params, searchParams }) {
   // Remove "https://", "http://", and "//" from the URL
   const file = await fs.readFile(
@@ -36,7 +37,9 @@ function SingleProject({ params }) {
       <Nav />
 
       <main class="container">
-        <ProjectView params={params} />
+        <ErrorBoundary>
+          <ProjectView params={params} />
+        </ErrorBoundary>
       </main>
       <Footer />
       <Script
