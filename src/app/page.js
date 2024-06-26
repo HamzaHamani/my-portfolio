@@ -14,7 +14,7 @@ export const metadata = {
     template: "Hamza | %s",
   },
   description:
-    "Hamza Hamani, a Full Stack Developer based in Kenitra, specializes in Next.js, Tailwind CSS, Drizzle, and more. With 3 years of coding experience, he brings a wealth of knowledge and expertise to his projects.",
+    "Hamza Hamani, a Full Stack Developer based in Kenitra, specializes in Next.js, Tailwind CSS, Drizzle, with 3 years of coding experience.",
   icons: {
     icon: "/assets/imgs/favicon.ico",
     shortcut: "/assets/imgs/favicon.ico",

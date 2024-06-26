@@ -5,15 +5,17 @@ export const metadata = {
     default: "Hamza | Full Stack Developer",
     template: "Hamza | %s",
   },
-  description: "I’m Hamza Hamani, Full Stack Developer and Based in Kenitra",
+  description:
+    "Hamza Hamani, a Full Stack Developer based in Kenitra, specializes in Next.js, Tailwind CSS, Drizzle, with 3 years of coding experience.",
+  alternates: {
+    canonical: "https://hamzahamani.tech",
+  },
   openGraph: {
     title: "Hamza Hamani",
     description:
-      "Hamza Hamani, a Full Stack Developer in Kenitra, specializes in Next.js, Tailwind CSS, Drizzle, and more. With 3 years of coding experience, he brings expertise to his projects",
+      "Hamza Hamani, a Full Stack Developer based in Kenitra, specializes in Next.js, Tailwind CSS, Drizzle, with 3 years of coding experience.",
     url: "https://hamzahamani.tech",
-    alternates: {
-      canonical: "https://hamzahamani.tech",
-    },
+
     images: [
       {
         url: "http://hamzahamani.tech/api/og?title=hamzahamani.tech", // Dynamic og route
