@@ -7,6 +7,11 @@ import ContactUs from "@/components/dark/contact/ContactUs";
 import ProjectView from "@/components/dark/works/single-project.jsx/project-view";
 import Script from "next/script";
 import React from "react";
+export const metadata = {
+  // Remove "https://", "http://", and "//" from the URL
+
+  title: "Project",
+};
 
 function SingleProject({ params }) {
   return (

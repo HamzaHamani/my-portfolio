@@ -2,10 +2,6 @@ import React from "react";
 import { promises as fs } from "fs";
 import { title } from "process";
 
-export const metadata = {
-  title: "Portfoilio",
-};
-
 async function ProjectView({ params }) {
   function removeProtocol(url) {
     // Remove "https://", "http://", and "//" from the URL
