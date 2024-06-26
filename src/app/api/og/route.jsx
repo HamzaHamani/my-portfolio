@@ -12,7 +12,7 @@ export async function GET(req) {
 
   // Fetch the Outfit font from the specified URL
   const font = fetch(
-    new URL("../../../../public/fonts/outfit-semibold.ttf", import.meta.url)
+    new URL("../../../../public/assets/fonts/fa-regular-400", import.meta.url)
   ).then((res) => res.arrayBuffer());
   const fontData = await font;
 
