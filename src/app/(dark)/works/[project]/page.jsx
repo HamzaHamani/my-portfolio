@@ -9,13 +9,9 @@ import ProjectView from "@/components/dark/works/single-project.jsx/project-view
 import Script from "next/script";
 import React from "react";
 import ErrorBoundary from "@/components/errorBoundary";
+import { data } from "@/data/home/data";
 export async function generateMetadata({ params, searchParams }) {
   // Remove "https://", "http://", and "//" from the URL
-  const file = await fs.readFile(
-    process.cwd() + "/src/data/home/works.json",
-    "utf8"
-  );
-  const data = JSON.parse(file);
 
   const filtered = data.filter((item) => {
     return item.title === params.project;
