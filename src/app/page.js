@@ -8,23 +8,6 @@ import Navbar from "@/components/dark/home/navbar";
 import "./globals.css";
 import Dark from "@/components/dark/dark";
 
-export const metadata = {
-  title: {
-    default: "Hamza | Full Stack Developer",
-    template: "Hamza | %s",
-  },
-  description:
-    "Hamza Hamani, a Full Stack Developer based in Kenitra, specializes in Next.js, Tailwind CSS, Drizzle, with 3 years of coding experience.",
-  icons: {
-    icon: "/assets/imgs/favicon.ico",
-    shortcut: "/assets/imgs/favicon.ico",
-    other: generateStylesheetObject([
-      "/assets/css/plugins.css",
-      "/assets/css/style.css",
-    ]),
-  },
-};
-
 export default function Home() {
   return (
     <div>
