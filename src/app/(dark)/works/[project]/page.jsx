@@ -8,7 +8,6 @@ import ContactUs from "@/components/dark/contact/ContactUs";
 import ProjectView from "@/components/dark/works/single-project.jsx/project-view";
 import Script from "next/script";
 import React from "react";
-import ErrorBoundary from "@/components/errorBoundary";
 import { data } from "@/data/home/data";
 export async function generateMetadata({ params, searchParams }) {
   // Remove "https://", "http://", and "//" from the URL
@@ -33,9 +32,7 @@ function SingleProject({ params }) {
       <Nav />
 
       <main class="container">
-        <ErrorBoundary>
-          <ProjectView params={params} />
-        </ErrorBoundary>
+        <ProjectView params={params} />
       </main>
       <Footer />
       <Script
