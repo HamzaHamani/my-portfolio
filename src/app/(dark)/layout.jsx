@@ -10,8 +10,12 @@ export const metadata = {
   description: "I’m Hamza Hamani, Full Stack Developer and Based in Kenitra",
   openGraph: {
     title: "Hamza Hamani",
-    description: "I’m Hamza Hamani, Full Stack Developer and Based in Kenitra",
+    description:
+      "Hamza Hamani, a Full Stack Developer based in Kenitra, specializes in Next.js, Tailwind CSS, Drizzle, and more. With 3 years of coding experience, he brings a wealth of knowledge and exp ertise to his projects.",
     url: "https://hamzahamani.tech",
+    alternates: {
+      canonical: "./",
+    },
     images: [
       {
         url: "http://hamzahamani.tech/api/og?title=hamzahamani.tech", // Dynamic og route
