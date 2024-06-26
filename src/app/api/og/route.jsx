@@ -11,10 +11,10 @@ export async function GET(req) {
   const postTitle = searchParams.get("title");
 
   // Fetch the Outfit font from the specified URL
-  const font = fetch(
-    new URL("../../../../public/assets/fonts/fa-regular-400", import.meta.url)
-  ).then((res) => res.arrayBuffer());
-  const fontData = await font;
+  //   const font = fetch(
+  //     new URL("../../../../public/assets/fonts/fa-regular-400", import.meta.url)
+  //   ).then((res) => res.arrayBuffer());
+  //   const fontData = await font;
 
   // Create an ImageResponse with dynamic content
   return new ImageResponse(
@@ -52,13 +52,6 @@ export async function GET(req) {
     {
       width: 1920,
       height: 1080,
-      fonts: [
-        {
-          name: "Outfit",
-          data: fontData,
-          style: "normal",
-        },
-      ],
     }
   );
 }
