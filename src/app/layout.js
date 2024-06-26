@@ -2,6 +2,7 @@ import "./globals.css";
 import generateStylesheetObject from "@/Common/generateStylesheetsObject";
 
 export const metadata = {
+  metadataBase: new URL("https://hamzahamani.tech"),
   title: {
     default: "Hamza | Full Stack Developer",
     template: "Hamza | %s",
