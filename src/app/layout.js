@@ -2,10 +2,11 @@ import "./globals.css";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
       {
         "@context": "http://schema.org",
         "@type": "Organization",
@@ -26,8 +27,9 @@ export default function RootLayout({ children }) {
         ]
       }
     `,
-        }}
-      />
+          }}
+        />
+      </head>
       <body> {children}</body>
     </html>
   );

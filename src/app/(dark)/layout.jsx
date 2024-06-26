@@ -1,6 +1,4 @@
 import generateStylesheetObject from "@/Common/generateStylesheetsObject";
-import Lines from "@/components/Common/Lines";
-import React from "react";
 
 export const metadata = {
   title: {
@@ -11,10 +9,10 @@ export const metadata = {
   openGraph: {
     title: "Hamza Hamani",
     description:
-      "Hamza Hamani, a Full Stack Developer based in Kenitra, specializes in Next.js, Tailwind CSS, Drizzle, and more. With 3 years of coding experience, he brings a wealth of knowledge and exp ertise to his projects.",
+      "Hamza Hamani, a Full Stack Developer in Kenitra, specializes in Next.js, Tailwind CSS, Drizzle, and more. With 3 years of coding experience, he brings expertise to his projects",
     url: "https://hamzahamani.tech",
     alternates: {
-      canonical: "./",
+      canonical: "https://hamzahamani.tech",
     },
     images: [
       {
